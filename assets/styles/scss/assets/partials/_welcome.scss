@@ -1,0 +1,57 @@
+section.welcome {
+    font-family: "Lato";
+    line-height: 1.2;
+    // padding-top: 20px;
+    // padding-bottom: 20px;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    flex-direction: column;
+
+    .wrapper {
+        text-align: center;
+        position: relative;
+        h2 {
+            margin-bottom: 60px;
+            font-size: 70px;
+            font-weight: 300;
+        }
+        .inner {
+            width: 90%;
+        }
+    }
+    .container {
+        width: 80%;
+        .col {
+            text-align: center;
+            & #shipping {
+                @include hideText;
+                height: 55px;
+                background-image: url("../../images/svg/delivery.svg");
+                               background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+            }
+            & #refunds{
+            	@extend #shipping;
+                background-image: url("../../images/svg/refunds.svg");
+            }
+            & #support{
+            	@extend #shipping;
+                background-image: url("../../images/svg/support.svg");
+            }
+            h3 {
+                margin-top: 10px;
+                font-size: 20px;
+                font-weight: 300;
+            }
+            p {
+                margin-top: 5px;
+                font-size: 15px;
+                color: rgb(168, 168, 168);
+            }
+        }
+    }
+}

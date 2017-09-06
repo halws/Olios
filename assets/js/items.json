@@ -1,0 +1,333 @@
+{
+  "icons": {
+    "livingRoom": [
+      "assets/images/livingRoom-icon.png",
+      "Living Room"
+    ],
+    "office": [
+      "assets/images/office-icon.png",
+      "Office"
+    ],
+    "forKids": [
+      "assets/images/forKids-icon.png",
+      "For kids"
+    ],
+    "kitchen": [
+      "assets/images/kitchen-icon.png",
+      "Kitchen"
+    ],
+    "accesories": [
+      "assets/images/accesories-icon.png",
+      "Accesories"
+    ]
+  },
+  "livingRoom": [
+    {
+      "name": "POÄNG",
+      "shortInfo": "Chair, birch veneer, Ransta natural",
+      "color": "Blue",
+      "price": 79,
+      "colParam": 4,
+      "image": ["assets/images/items/living-room/poang-chair-beige-1.JPG","assets/images/items/living-room/poang-chair-beige-2.JPG","assets/images/items/living-room/poang-chair-beige-3.JPG"],
+      "alt": "Pong Chair",
+      "id": 0,
+      "category":"livingRoom"
+    },
+    {
+      "name": "Liatorp",
+      "shortInfo": "Loveseat, Hillared dark blue",
+      "color": "Blue",
+      "price": 579,
+      "colParam": 8,
+      "image": ["assets/images/items/living-room/kivik-loveseat-blue-1.JPG","assets/images/items/living-room/kivik-loveseat-blue-2.JPG","assets/images/items/living-room/kivik-loveseat-blue-3.JPG"],
+      "alt": "Kivik loveseat",
+      "id": 1,
+      "category":"livingRoom"
+    },
+    {
+      "name": "VEJMON",
+      "shortInfo": "Side table, black-brown",
+      "color": "Blue",
+      "price": 69,
+      "colParam": 3,
+      "image": ["assets/images/items/living-room/vejmon-side-table-brown-1.JPG","assets/images/items/living-room/vejmon-side-table-brown-2.JPG","assets/images/items/living-room/vejmon-side-table-brown-3.JPG"],
+      "alt": "Vejmon sidetable",
+      "id": 2,
+      "category":"livingRoom"
+    },
+    {
+      "name": "LIATORP",
+      "shortInfo": "Sideboard, white",
+      "color": "Blue",
+      "price": 360,
+      "colParam": 6,
+      "image": ["assets/images/items/living-room/liatorp-sideboard-white-1.JPG","assets/images/items/living-room/liatorp-sideboard-white-2.JPG","assets/images/items/living-room/liatorp-sideboard-white-3.JPG"],
+      "alt": "liatorp sideboard",
+      "id": 3,
+      "category":"livingRoom"
+    },
+    {
+      "name": "LIATORP",
+      "shortInfo": "Coffee table, white, glass",
+      "color": "Blue",
+      "price": 279,
+      "colParam": 3,
+      "image": ["assets/images/items/living-room/liatorp-coffee-table-white-1.JPG","assets/images/items/living-room/liatorp-coffee-table-white-2.JPG","assets/images/items/living-room/liatorp-coffee-table-white-3.JPG"],
+      "alt": "liatorp sideboard",
+      "id": 4,
+      "category":"livingRoom"
+    }
+  ],
+  "office": [
+   
+    {
+      "name": "IKEA PS",
+      "shortInfo": "Cabinet, white",
+      "color": "white",
+      "price": 99,
+      "colParam": 8,
+      "image": ["assets/images/items/office/ikea-ps-cabinet-white-1.JPG","assets/images/items/office/ikea-ps-cabinet-white-2.JPG","assets/images/items/office/ikea-ps-cabinet-white-3.JPG"],
+      "alt": "Cabinet, white",
+      "id": 0,
+      "category":"office"
+    },
+    {
+      "name": "MARKUS",
+      "shortInfo": "Swivel chair, black Glose Robust black",
+      "color": "Robust black",
+      "price": 199,
+      "colParam": 4,
+      "image": ["assets/images/items/office/markus-swivel-chair-black-1.JPG","assets/images/items/office/markus-swivel-chair-black-2.JPG","assets/images/items/office/markus-swivel-chair-black-3.JPG"],
+      "alt": "MARKUS",
+      "id": 1,
+      "category":"office"
+    },
+    {
+      "name": "MICKE",
+      "shortInfo": "Computer work station, black-brown",
+      "color": "black-brown",
+      "price": 119.99,
+      "colParam": 5,
+      "image": ["assets/images/items/office/micke-computer-work-station-brown-1.JPG","assets/images/items/office/micke-computer-work-station-brown-2.JPG","assets/images/items/office/micke-computer-work-station-brown-3.JPG"],
+      "alt": "Pong Chair",
+      "id": 2,
+      "category":"office"
+    },
+    {
+      "name": "BILLY",
+      "shortInfo": "Bookcase, white",
+      "color": "white",
+      "price": 39,
+      "colParam": 4,
+      "image": ["assets/images/items/office/billy-bookcase-white-1.JPG","assets/images/items/office/billy-bookcase-white-2.JPG","assets/images/items/office/billy-bookcase-white-3.JPG"],
+      "alt": "Bookcase, white",
+      "id": 4,
+      "category":"office"
+    },
+    {
+      "name": "GALANT",
+      "shortInfo": "Roll-front cabinet, birch veneer",
+      "color": "birch veneer",
+      "price": 399,
+      "colParam": 3,
+      "image": ["assets/images/items/living-room/poang-chair-beige-1.JPG","assets/images/items/living-room/poang-chair-beige-2.JPG","assets/images/items/living-room/poang-chair-beige-3.JPG"],
+      "alt": "Roll-front cabinet, birch veneer",
+      "id": 5,
+      "category":"office"
+    }
+  ],
+  "forKids": [
+    {
+      "name": "ÖRFJÄLL",
+      "shortInfo": "Child's desk chair, white, Vissle bright blue",
+      "color": "Vissle bright blue",
+      "price": 44,
+      "colParam": 4,
+      "image": ["assets/images/items/kids/orfjall-child-s-desk-chair-blue-1.JPG","assets/images/items/kids/orfjall-child-s-desk-chair-blue-2.JPG","assets/images/items/kids/orfjall-child-s-desk-chair-blue-3.JPG"],
+      "alt": "ÖRFJÄLL",
+      "id": 0,
+      "category":"forKids"
+    },
+    {
+      "name": "TROFAST",
+      "shortInfo": "Storage combination with boxes, white, white",
+      "color": "white",
+      "price": 65,
+      "colParam": 4,
+      "image": ["assets/images/items/kids/trofast-storage-combination-with-boxes-white-1.JPG","assets/images/items/kids/trofast-storage-combination-with-boxes-white-2.JPG","assets/images/items/kids/trofast-storage-combination-with-boxes-white-3.JPG"],
+      "alt": "TROFAST",
+      "id": 1,
+      "category":"forKids"
+    },
+    {
+      "name": "STUVA",
+      "shortInfo": "Play table with 2 drawers, white, orange",
+      "color": "white, orange",
+      "price": 136,
+      "colParam": 4,
+      "image": ["assets/images/items/kids/stuva-play-table-with-drawers-white-1.JPG","assets/images/items/kids/stuva-play-table-with-drawers-white-2.JPG","assets/images/items/kids/stuva-play-table-with-drawers-white-3.JPG"],
+      "alt": "STUVA",
+      "id": 2,
+      "category":"forKids"
+    },{
+      "name": "TUFFING",
+      "shortInfo": "Loft bed frame, dark gray",
+      "color": "dark gray",
+      "price": 99,
+      "colParam": 8,
+      "image": ["assets/images/items/kids/tuffing-loft-bed-frame-gray-1.JPG","assets/images/items/kids/tuffing-loft-bed-frame-gray-2.JPG","assets/images/items/kids/tuffing-loft-bed-frame-gray-3.JPG"],
+      "alt": "TUFFING",
+      "id": 3,
+      "category":"forKids"
+    },
+   
+    {
+      "name": "FLYTTBAR",
+      "shortInfo": "Toy trunk, red",
+      "color": "red",
+      "price": 17,
+      "colParam": 4,
+      "image": ["assets/images/items/kids/flyttbar-toy-trunk-red-1.JPG","assets/images/items/kids/flyttbar-toy-trunk-red-2.JPG","assets/images/items/kids/flyttbar-toy-trunk-red-3.JPG"],
+      "alt": "FLYTTBAR",
+      "id": 4,
+      "category":"forKids"
+    }
+    
+  ],
+  "kitchen": [
+    {
+      "name": "BYHOLMA / MARIEBERG",
+      "shortInfo": "Chair, gray, Laila natural",
+      "color": "Laila natural",
+      "price": 114,
+      "colParam": 4,
+      "image": ["assets/images/items/kitchen/byholma-marieberg-chair-beige-1.JPG","assets/images/items/kitchen/byholma-marieberg-chair-beige-2.JPG","assets/images/items/kitchen/byholma-marieberg-chair-beige-3.JPG"],
+      "alt": "BYHOLMA / MARIEBERG",
+      "id": 0,
+      "category":"kitchen"
+    },
+    {
+      "name": "RÅSKOG",
+      "shortInfo": "Utility cart, beige",
+      "color": "beige",
+      "price": 25,
+      "colParam": 4,
+      "image": ["assets/images/items/kitchen/raskog-utility-cart-beige-1.JPG","assets/images/items/kitchen/raskog-utility-cart-beige-2.JPG","assets/images/items/kitchen/raskog-utility-cart-beige-3.JPG"],
+      "alt": "RÅSKOG",
+      "id": 1,
+      "category":"kitchen"
+    },
+    {
+      "name": "BEKVÄM",
+      "shortInfo": "Stepladder, 3 steps, beech",
+      "color": "beech",
+      "price": 40,
+      "colParam": 4,
+      "image": ["assets/images/items/kitchen/bekvam-stepladder-steps-1.JPG","assets/images/items/kitchen/bekvam-stepladder-steps-2.JPG","assets/images/items/kitchen/bekvam-stepladder-steps-3.JPG"],
+      "alt": "BEKVÄM",
+      "id": 2,
+      "category":"kitchen"
+    },
+    {
+      "name": "NORDEN",
+      "shortInfo": "Extendable table, birch",
+      "color": "birch",
+      "price": 299,
+      "colParam": 4,
+      "image": ["assets/images/items/kitchen/norden-extendable-table-1.JPG","assets/images/items/kitchen/norden-extendable-table-2.JPG","assets/images/items/kitchen/norden-extendable-table-3.JPG"],
+      "alt": "NORDEN",
+      "id": 3,
+      "category":"kitchen"
+    },
+    {
+      "name": "DOCKSTA",
+      "shortInfo": "Table, white",
+      "color": "white",
+      "price": 179,
+      "colParam": 4,
+      "image": ["assets/images/items/kitchen/docksta-table-white-1.JPG","assets/images/items/kitchen/docksta-table-white-2.JPG","assets/images/items/kitchen/docksta-table-white-3.JPG"],
+      "alt": "DOCKSTA",
+      "id": 4,
+      "category":"kitchen"
+    },
+    {
+      "name": "JANINGE",
+      "shortInfo": "Bar stool, white",
+      "color": "white",
+      "price": 99,
+      "colParam": 4,
+      "image": ["assets/images/items/kitchen/janinge-bar-stool-white-1.JPG","assets/images/items/kitchen/janinge-bar-stool-white-2.JPG","assets/images/items/kitchen/janinge-bar-stool-white-3.JPG"],
+      "alt": "JANINGE",
+      "id": 5,
+      "category":"kitchen"
+    }
+  ],
+  "accesories": [
+    {
+      "name": "IKEA PS 2017",
+      "shortInfo": "Notebook, red",
+      "color": "red",
+      "price": 5,
+      "colParam": 4,
+      "image": ["assets/images/items/accesories/ikea-ps-notebook-red-1.JPG","assets/images/items/accesories/ikea-ps-notebook-red-2.JPG","assets/images/items/accesories/ikea-ps-notebook-red-3.JPG"],
+      "alt": "Notebook, red",
+      "id": 0,
+      "category":"accesories"
+    },
+    {
+      "name": "KARMSUND",
+      "shortInfo": "Table mirror, black",
+      "color": "black",
+      "price": 18,
+      "colParam": 4,
+      "image": ["assets/images/items/accesories/karmsund-table-mirror-black-1.JPG","assets/images/items/accesories/karmsund-table-mirror-black-2.JPG","assets/images/items/accesories/karmsund-table-mirror-black-2.JPG","assets/images/items/accesories/karmsund-table-mirror-black-3.JPG"],
+      "alt": "Table mirror, black",
+      "id": 1,
+      "category":"accesories"
+    },
+    {
+      "name": "RIBBA",
+      "shortInfo": "Frame, high gloss, gray",
+      "color": "gray",
+      "price": 2,
+      "colParam": 4,
+      "image": ["assets/images/items/accesories/ribba-frame-gray-1.JPG","assets/images/items/accesories/ribba-frame-gray-2.JPG","assets/images/items/accesories/ribba-frame-gray-3.JPG"],
+      "alt": "Frame, high gloss, gray",
+      "id": 2,
+      "category":"accesories"
+    },
+    {
+      "name": "VASEN",
+      "shortInfo": "Vase, clear glass",
+      "color": "clear glass",
+      "price": 2,
+      "colParam": 4,
+      "image": ["assets/images/items/accesories/vasen-vase-1.JPG","assets/images/items/accesories/vasen-vase-2.JPG","assets/images/items/accesories/vasen-vase-3.JPG"],
+      "alt": "Vase, clear glass",
+      "id": 3,
+      "category":"accesories"
+    },
+    {
+      "name": "SOCKERÄRT",
+      "shortInfo": "Vase, white",
+      "color": "white",
+      "price": 10,
+      "colParam": 4,
+      "image": ["assets/images/items/accesories/sockerart-vase-white-1.JPG","assets/images/items/accesories/sockerart-vase-white-2.JPG","assets/images/items/accesories/sockerart-vase-white-3.JPG"],
+      "alt": "Vase, white",
+      "id": 4,
+      "category":"accesories"
+    },
+    {
+      "name": "SOMMAR 2017",
+      "shortInfo": "Tealight and candle holder, yellow",
+      "color": "yellow",
+      "price": 4,
+      "colParam": 4,
+      "image": ["assets/images/items/accesories/sommar-tealight-and-candle-holder-yellow-1.JPG","assets/images/items/accesories/sommar-tealight-and-candle-holder-yellow-2.JPG","assets/images/items/accesories/sommar-tealight-and-candle-holder-yellow-3.JPG"],
+      "alt": "Tealight and candle holder, yellow",
+      "id": 5,
+      "category":"accesories"
+    }
+  ]
+}

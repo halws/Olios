@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap-grid.min.css">
+    <!--     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+ -->
+    <!-- <link rel="stylesheet" href="assets/bower_components/bootstrap/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/styles/css/styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+    <div id="top"></div>
+        <a id="rightBtn" href="" type='button'><span class="lines"></span></a>
+        <header>
+            <h1 id="logo"> wtf</h1>
+            <nav class="leftNav">
+                <ul>
+                    <li class="fa fa-home fa-lg"></li>
+                    <li class="fa fa-shopping-basket fa-lg"></li>
+                    <li class="fa fa-search fa-lg"></li>
+                </ul>
+            </nav>
+            <nav class="rightNav">
+                <ul>
+                    <li><a href="#" id="livingRoom-btn">Living Room </a>
+                        <h1 class="icon livingRoom">Living Room</h1></li>
+                    <li><a href="#" id="office-btn">Office </a>
+                        <h1 class="icon office">Office</h1></li>
+                    <li><a href="#">For Kids </a>
+                        <h1 class="icon forKids">For Kids</h1></li>
+                    <li><a href="#">Kitchen </a>
+                        <h1 class="icon kitchen">Kitchen</h1></li>
+                    <li><a href="#">Accesories </a>
+                        <h1 class="icon accesories">Accesories</h1></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content">
+            <div class="shadow"></div>
+            <section class="main">
+                <h1>Newest</h1>
+                <div class="inner">
+                    <h2> Olios</h2>
+                    <p>Brend new furniture</p>
+                    <a id="viewMore">view more</a> </div>
+            </section>
+            <section class="welcome">
+                <div class="wrapper">
+                    <h2>Welcome to Shop</h2>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-sm-6 col-md-4">
+                            <div id="shipping">delivery</div>
+                            <h3>Cheap Delivery</h3>
+                            <p>We have client-friendly shipping prices</p>
+                        </div>
+                        <div class="col col-sm-6 col-md-4">
+                            <div id="refunds">refunds</div>
+                            <h3>100% Refund within 3 days</h3>
+                            <p>You always can refund your money!</p>
+                        </div>
+                        <div class="col col-sm-6 col-md-4">
+                            <div id="support">support</div>
+                            <h3>Support 24/7</h3>
+                            <p>Call us now 830 380 380</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="products" id="products">
+                <div id="productsInner">
+                    <div class="topInfo">
+                        <h2>Products</h2>
+                        <p>Living Room</p> <span id="subLogo">subLogo</span> </div>
+                    <div class="items">
+                        <div class="container">
+                            <div class="row">
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" id="showMore" style="display: none;">Show More </a>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="product">
+        <div class=" img">
+            <div class="picture">
+                <div class="slider">
+                    <div class="picture">
+                       <img src="assets/images/items/living-room/kivik-loveseat-blue-1.JPG" alt="">
+                    </div>
+                    <div class="picture ">
+                       <img src="assets/images/items/living-room/kivik-loveseat-blue-2.JPG" alt="">
+                        
+                    </div>
+                    <div class="picture">
+                       <img src="assets/images/items/living-room/kivik-loveseat-blue-3.JPG" alt="">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="description">
+                <a id="closeBtn" href="#" type='button'><span class="lines close"></span></a>
+                <div class="inner">
+                    <div class="category">
+                        <h3>Products</h3>
+                        <p>Living Room</p> <span id="subLogo">subLogo</span> </div>
+                    <div class="product-desc">
+                        <h2><span>White Seat</span> </h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, reprehenderit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, illo.</p>
+                        <table class="productValue">
+                            <tr>
+                                <th>Cost</th>
+                                <th>Quantity</th>
+                            </tr>
+                            <tr>
+                                <td id="productPrice">$65
+                                    <span>$90</span></td>
+                                <td id="productQuantity"><span>1</span></td>
+                                <td id="addProduct" type="button">Add to Card</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="recomended"></div>
+        </div>
+    </div>
+    <script id="productHandlebars" type="text/x-handlebars-template">
+        {{#each this}}
+        <a data-index="{{id}}" data-category="{{category}}" class="col col-sm-6 col-md-{{colParam}} animated">
+            <div class="inner">
+                <div class="image">
+                    <img src="{{image.[0]}}" alt="{{alt}}">
+                </div>
+                <h3 id="name">{{name}}</h3>
+                <p id="shortInfo">{{shortInfo}}</p>
+                <span id="price">${{price}}.00</span>
+            </div>
+        </a>
+        {{/each}}
+    </script>
+    <script type="text/javascript" src="assets/bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/plugins/ScrollToPlugin.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TimelineLite.min.js"></script>
+    <script type="text/javascript" src="assets/bower_components/handlebars/handlebars.js"></script>
+    <script type="text/javascript" src="assets/bower_components/slick-carousel/slick/slick.js"></script>
+    <script type="text/javascript" src="assets/bower_components/zoomove/dist/zoomove.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+
+</html>

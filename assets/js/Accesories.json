@@ -1,0 +1,28 @@
+[
+{
+    "id": "6",
+    "title": "IKEA PS 2017",
+    "description": "Notebook, red",
+    "color": "Red",
+    "category": "Accesories",
+    "price": "5",
+    "count": "5"
+},
+{
+    "id": "20",
+    "title": "BYHOLMA \/ MARIEBERG",
+    "description": "",
+    "color": "Laila natural",
+    "category": "Accesories",
+    "price": "12",
+    "count": "312"
+},
+{
+    "id": "48",
+    "title": "Lor Lor",
+    "description": "asdsd",
+    "color": "birch",
+    "category": "Accesories",
+    "price": "213",
+    "count": "23"
+}]

@@ -1,0 +1,41 @@
+@mixin hideText($height: null) {
+    overflow: hidden;
+    text-indent: 101%;
+    white-space: nowrap;
+    @if $height {
+        @warn "The `hide-text` mixin has changed and no longer requires a height. The height argument will no longer be accepted in v5.0.0";
+    }
+}
+
+@mixin bd($color) {
+    border: 1px solid $color;
+}
+
+@mixin icon ($src, $height) {
+    @include hideText;
+    background-image: url($src);
+    height: $height + px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+@mixin line {
+    display: inline-block;
+    width: $button-size;
+    height: $nav-line-height;
+    background: $color;
+    border-radius: $button-size/14;
+    transition: all $transition ;
+}
+@mixin fc ($coordinates){
+    display: flex;
+    @if $coordinates == h{
+    justify-content: center;
+    }@else if $coordinates ==v {
+        align-items: center;
+    }@else if $coordinates ==hav{
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,196 @@
+.product {
+    display: flex;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    padding-left: 95px;
+    width: 100%;
+    height: 100vh;
+    text-align: right;
+    background-color: #fff;
+    opacity: 0;
+    transition: all 1s ease-out;
+    #closeBtn {
+        @extend #rightBtn;
+        position: absolute;
+        right: 35px;
+        top: 110px;
+        & .lines {
+            &::after,
+            &::before {
+                background-color: #a8a8a8;
+            }
+        }
+        &:hover {
+            .lines::after,
+            .lines::before {
+                background-color: darken(#a8a8a8, 20%);
+            }
+        }
+    }
+    &.visible {
+        opacity: 1;
+        overflow-y: scroll;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .img {
+        width: 40%;
+        height: 100%;
+        z-index: 1002;
+        box-shadow: 3px 0px 12px 0px rgba(0, 0, 0, 0.1);
+        .picture {
+            position: relative;
+            width: 100%;
+            height: 80%;
+            overflow: hidden;
+            .slider{
+                height: 90%;
+                width: 100%;
+                .picture{
+                    &:focus {outline:0;}
+                    cursor: pointer;
+                    position: relative;
+                    width: 100%;
+                    height: auto;
+                    img{
+                        max-width: 100%;
+                        height: auto;
+                    }
+                }
+            //     .photo {
+    //     @include bd(green);
+    //     // position: relative;
+    //     // top: 0;
+    //     // left: 0;
+    //     width: 100%;
+    //     height:100%;
+    //     background-repeat: no-repeat;
+    //     background-position: center;
+    //     background-size: cover;
+    //     transition: transform .5s ease-out;
+    // }
+
+            }
+        }
+    }
+    .wrapper {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+    .description {
+        width: 100%;
+        height: 70%;
+        background-color: lighten(#f0f0f0, 2%);
+        @include fc(v);
+        .inner {
+            margin-left: 5%;
+            width: 65%;
+            flex-direction: column;
+            .product-desc {
+                width: 100%;
+            }
+        }
+    }
+    .recomended {
+        width: 100%;
+        height: 30%;
+    }
+}
+
+.category {
+    text-transform: uppercase;
+    position: absolute;
+    top: 50px;
+    width: 35%;
+    @include fc(v);
+    p {
+        margin-left: auto;
+        color: #cdcdcd;
+    }
+    span {
+        @include hideText;
+        margin-left: 5%;
+        height: 85px;
+        width: 85px;
+        // background-image: url("../../images/living-room-logo.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+}
+
+.product-desc {
+    text-align: left;
+    h2 {
+        font-size: 45px;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        span {
+            color: rgb(0, 35, 255);
+        }
+    }
+    p {
+        color: #a8a8a8;
+        margin-bottom: 40px;
+        padding-right: 20px;
+    }
+}
+
+//table 
+table.productValue {
+    th {
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 300;
+        &:first-child {
+            padding-right: 100px;
+        }
+        &:last-child {
+            padding-right: 30px;
+        }
+    }
+    #th-hide {
+        @include hideText;
+    }
+    td#productPrice {
+        font-size: 35px;
+        color: rgb(0, 35, 255);
+        font-weight: bold;
+        span {
+            color: rgb(0, 0, 0);
+            font-size: 15px;
+            text-decoration: line-through;
+        }
+    }
+    td#productQuantity {
+        span {
+            padding: 0 20px;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+    }
+    td#addProduct {
+        cursor: pointer;
+        text-transform: uppercase;
+        padding: 5px 20px;
+        background-color: rgb(0, 35, 255);
+        color: #fff;
+        border-radius: 20px;
+    }
+}
+
+.slider {
+    width: 100%;
+    // @include bd(red);
+}
+
+.ajax {
+    position: relative;
+    height: 200px;
+    width: 400px;
+}

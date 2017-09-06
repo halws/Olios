@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap-grid.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/css/uikit.min.css">
+    <link rel="stylesheet" href="assets/styles/css/styles.css">
+
+</head>
+
+<body>
+
+<ul class="buttons">
+    <li class="uk-button uk-button-default" data-json="Accesories">Accesories</li>
+    <li class="uk-button uk-button-default" data-json="forkids">For Children</li>
+</ul>
+<div class="rendered">
+    
+</div>
+    <script id="productHandlebars" type="text/x-handlebars-template">
+        {{#each this}}
+        <table class="uk-table uk-table-small uk-width-1-2">
+    <thead>  
+        <tr>
+            <th>id</th>
+            <th>title</th>
+            <th>description</th>
+            <th>color</th>
+            <th>category</th>
+            <th>price</th>
+            <th>count</th>
+      </tr>
+  </thead>
+<tbody>
+      <tr>
+    <td>{{id}}</td>
+    <td>{{title}}</td>
+    <td>{{description}}</td>
+    <td>{{color}}</td>
+    <td>{{category}}</td>
+    <td>{{price}}</td>
+    <td>{{count}}</td>
+  </tr>
+</tbody>
+
+</table>
+<br>
+       <!--  <a data-index="{{id}}" data-category="{{category}}" class="col col-sm-6 col-md-{{colParam}} animated">
+            <div class="inner">
+                <div class="image">
+                    <img src="{{image.[0]}}" alt="{{alt}}">
+                </div>
+                <h3 id="name">{{name}}</h3>
+                <p id="shortInfo">{{shortInfo}}</p>
+                <span id="price">${{price}}.00</span>
+            </div>
+        </a> -->
+        {{/each}}
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/bower_components/handlebars/handlebars.js"></script>
+    <script type="text/javascript" src="assets/js/script2.js"></script>
+</body>
+
+</html>

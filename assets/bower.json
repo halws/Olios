@@ -1,0 +1,22 @@
+{
+  "name": "Olio",
+  "homepage": "https://github.com/halws/Olios",
+  "authors": [
+    "Nazar <Kotsuyba@gmail.com>"
+  ],
+  "description": "ecommerce template",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "slick-carousel": "^1.6.0",
+    "zoomove": "^1.2.0"
+  }
+}

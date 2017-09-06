@@ -1,0 +1,126 @@
+
+section.products {
+    padding-bottom: 50px;
+    font-family: "Lato";
+    line-height: 1.2;
+    background-color: #f0f0f0;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    .container{
+        max-width: 970px;
+    }
+    #productsInner {
+        margin: 0 auto;
+        height: auto;
+        width: 80%;
+        text-align: center;
+        // &a {
+        //     background-color: rgb(0, 35, 255);
+        //     color: #eee;
+        //     padding: 10px 20px;
+        //     border-radius: 10px;
+        //     text-decoration: none;
+        //     text-transform: uppercase;
+        // }
+        .items {
+            margin-bottom: 50px;
+            .col {
+                height: 300px;
+                margin-bottom: 15px;
+                background-color: initial;
+                .inner {
+                     cursor: pointer;
+                    overflow: hidden;
+                    text-align: left;
+                    padding: 15px;
+                    height: 100%;
+                    background-color: #fff;
+                    #showMore {
+                        text-transform: uppercase;
+                        font-size: 18px;
+                        color: rgb(0, 35, 255);
+                        font-weight: bold;
+                    }
+                    h3 {
+                        margin-top: 10px;
+                        font-size: 20px;
+                        font-weight: 400;
+                    }
+                    p {
+                        margin-top: 5px;
+                        margin-bottom: 20px;
+                        font-size: 15px;
+                        color: rgb(168, 168, 168);
+                    }
+                    span {
+                        font-size: 15px;
+                        color: rgb(0, 35, 255);
+                        font-weight: bold;
+                    }
+                    .image {
+                        img {
+                            margin: 0 auto;
+                            display: block;
+                            max-width: 150px;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+section.products .topInfo {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 50px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    h2 {
+        font-size: 70px;
+        font-weight: 300;
+    }
+    p {
+        margin-left: auto;
+        font-size: 18px;
+        color: rgb(193, 193, 193);
+    }
+    span {
+        @include hideText;
+        margin-left: 10px;
+        height: 105px;
+        width: 105px;
+        // background-image: url("../../images/living-room-logo.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+}
+
+.product .col-md-8,
+.product .col-md-6 {
+    .inner {
+        display: flex;
+        justify-content: center;
+        .inner-text {
+            width: 50%;
+            padding-left: 15px;
+            padding-top: 60px;
+        }
+        .image {
+            position: relative;
+            width: 50%;
+            img {
+                max-width: 100% !important;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}
